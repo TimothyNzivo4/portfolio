@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Basic layout for portfolio sections */
+.site-navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(36, 36, 36, 0.9);
+  backdrop-filter: blur(6px);
+  z-index: 40;
+}
+.site-navbar .nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.site-navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.site-navbar nav li { cursor: pointer; }
+
+.hero-section { padding: 6rem 1rem; text-align: center; }
+.hero-section .tagline { margin-top: 0.5rem; color: #ccc; }
+.hero-ctas { margin-top: 1rem; display: flex; gap: 0.75rem; justify-content: center }
+
+.section { padding: 4rem 1rem; }
+.container { max-width: 900px; margin: 0 auto; }
+
+.skills-grid { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap }
+.skill-group { min-width: 160px }
+.skill-list { margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap }
+.skill-badge { background: #1a1a1a; padding: 0.25rem 0.5rem; border-radius: 999px }
+
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem }
+.project-card { padding: 1rem; border-radius: 8px; background: rgba(255,255,255,0.03); text-align: left }
+.project-card img { width: 100%; height: auto; border-radius: 4px }
+.project-links { margin-top: 0.5rem; display: flex; gap: 0.5rem }
+
+.contact-form { display: grid; gap: 0.75rem; max-width: 540px; margin: 0 auto }
+.contact-form label { display: flex; flex-direction: column; gap: 0.25rem }
+.contact-form input, .contact-form textarea { padding: 0.5rem; border-radius: 6px; border: 1px solid #333; background: #121212 }
+
