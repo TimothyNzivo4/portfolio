@@ -1,5 +1,3 @@
-import React from 'react'
-
 const groups = [
   { title: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'React'] },
   { title: 'Backend', items: ['Node.js', 'Express', 'Python'] },

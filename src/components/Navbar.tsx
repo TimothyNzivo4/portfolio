@@ -1,5 +1,3 @@
-import React from 'react'
-
 const sections = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
