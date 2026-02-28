@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <header className="site-navbar">
       <div className="nav-inner">
-        <div className="brand">My Portfolio</div>
+        <div className="brand">TIMOTHY</div>
         <nav>
           <ul>
             {sections.map((s) => (
